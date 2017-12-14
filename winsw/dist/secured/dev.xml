@@ -1,0 +1,15 @@
+<service>
+    <id>rest-test-secured</id>
+    <name>rest-test-secured</name>
+    <description>Rest Test Service</description>
+    <workingdirectory>C:\Microservices\rest-test-service-secured</workingdirectory>
+    <logpath>C:\Microservices\rest-test-service-secured\logs</logpath>
+    <logmode>rotate</logmode>
+
+    <executable>C:\Java\jdk1.8.0_101\bin\java</executable>
+    <startargument>-Dspring.profiles.active=dev-master,integration-secure</startargument>
+    <startargument>-Xmx256m</startargument>
+    <startargument>-jar</startargument>
+    <startargument>C:/Microservices/rest-test-service-secured/rest-test.jar</startargument>
+    <startargument>ram.services.rest.DemoApplication</startargument>
+</service>
