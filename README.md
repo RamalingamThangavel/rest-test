@@ -1,2 +1,2 @@
 # rest-test
-This is test repo test
+This is test repo
