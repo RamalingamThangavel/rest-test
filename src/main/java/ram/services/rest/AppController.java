@@ -19,7 +19,7 @@ public class AppController {
     @RequestMapping(path = "/test", produces = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.GET)
     public Map helloWorld(){
         Map result = new HashMap();
-        result.put("name", "Ram");
+        result.put("name", "Ram test for stating");
         return result;
     }
 }
