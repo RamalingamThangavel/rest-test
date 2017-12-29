@@ -22,4 +22,11 @@ public class AppController {
         result.put("name", "to be released for staging");
         return result;
     }
+    
+    @RequestMapping(path = "/test2", produces = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.GET)
+    public Map helloWorld(){
+        Map result = new HashMap();
+        result.put("name", "added test2 end point");
+        return result;
+    }
 }
