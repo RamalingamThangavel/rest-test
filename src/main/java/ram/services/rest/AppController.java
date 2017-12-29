@@ -24,7 +24,7 @@ public class AppController {
     }
     
     @RequestMapping(path = "/test2", produces = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.GET)
-    public Map helloWorld(){
+    public Map helloWorld2(){
         Map result = new HashMap();
         result.put("name", "added test2 end point");
         return result;
